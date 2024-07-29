@@ -51,7 +51,7 @@ const performDraw = async () => {
     return;
   }
 
-  // Shuffle participants
+  // Shuffle participants ok
   const shuffled = participants.sort(() => 0.5 - Math.random());
 
   // Assign each participant to another
