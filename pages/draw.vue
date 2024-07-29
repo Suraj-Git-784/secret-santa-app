@@ -38,9 +38,6 @@ import { ref, onMounted } from "vue";
 import { useFetch, useState } from "#app";
 import { useRouter } from "vue-router";
 
-onMounted(() => {
-  console.log(`the component is now mounted.`, participantsStore.value)
-})
 
 // Define global state for assignments
 const assignmentsStore = useState("assignments", () => []);
